@@ -1,5 +1,6 @@
 package com.example.memoryapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 System.out.println("Iniciando Juego...");
+                iniciarJuego();
             }
         });
 
@@ -73,4 +75,11 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    /*Creo iniciarJuego que es llamada desde play set in click listenner*/
+    private void iniciarJuego(){
+        Intent i = new Intent(this, Juego.class);
+        startActivity(i);
+    }
+
 }

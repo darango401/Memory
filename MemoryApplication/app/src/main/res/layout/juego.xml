@@ -191,16 +191,14 @@
             android:layout_marginTop="50dp">
 
             <TextView
+                android:id="@+id/texto_puntuacion"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:textSize="25dp"
-                android:layout_gravity="center"
-                android:text="Puntuación: 0">
-                
+                android:layout_gravity="center">
+
             </TextView>
         </LinearLayout>
-
-
 
     </TableLayout>
 

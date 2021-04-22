@@ -36,7 +36,7 @@ public class Juego extends Activity {
     ImageButton primero;
     int numeroPrimero, numeroSegundo;
     boolean bloqueo = false;
-    final Handler handler1 = new Handler();
+    final Handler handler = new Handler();
 
 
     @Override
@@ -141,11 +141,22 @@ public class Juego extends Activity {
         cargarImagenes();
         //barajar(imagenes.length);
         arrayDesordenado = barajar(imagenes.length);
+
         for (int i=0; i<tablero.length; i++){
             tablero[i].setScaleType(ImageView.ScaleType.CENTER_CROP);
-            //tablero[i].setImageResource(imagenes[arrayDesordenado.get(i)]); //asigno la imagen
-            tablero[i].setImageResource(fondo);
+            tablero[i].setImageResource(imagenes[arrayDesordenado.get(i)]); //asigno la imagen
+            //tablero[i].setImageResource(fondo);
         }
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                for (int i=0; i<tablero.length; i++){
+                    tablero[i].setScaleType(ImageView.ScaleType.CENTER_CROP);
+                    //tablero[i].setImageResource(imagenes[arrayDesordenado.get(i)]); //asigno la imagen
+                    tablero[i].setImageResource(fondo);
+                }
+            }
+        }, 500);
     }
 
 }

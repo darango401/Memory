@@ -112,6 +112,7 @@ public class Juego extends Activity {
     private void cargarImagenes(){
         imagenes = new int[]{
                 R.drawable.la0,
+                R.drawable.la1,
                 R.drawable.la2,
                 R.drawable.la3,
                 R.drawable.la4,
@@ -138,11 +139,12 @@ public class Juego extends Activity {
         cargarBotones();
         cargarTexto();
         cargarImagenes();
+        //barajar(imagenes.length);
         arrayDesordenado = barajar(imagenes.length);
         for (int i=0; i<tablero.length; i++){
             tablero[i].setScaleType(ImageView.ScaleType.CENTER_CROP);
-            tablero[i].setImageResource(imagenes[arrayDesordenado.get(i)]);
-            //tablero[i].setImageResource(fondo);
+            //tablero[i].setImageResource(imagenes[arrayDesordenado.get(i)]); //asigno la imagen
+            tablero[i].setImageResource(fondo);
         }
     }
 

@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
@@ -134,6 +135,51 @@ public class Juego extends Activity {
         return result;
     }
 
+    //Creo el metodo Comprobar
+    private void comprobar(int i, final ImageButton imgb){
+        if(primero == null){
+            primero = imgb;
+            primero.setScaleType(ImageView.ScaleType.CENTER_CROP); //Debo pasarle la imagen
+            primero.setImageResource(imagenes[arrayDesordenado.get(i)]); //asigno la imagen
+            primero.setEnabled(false);
+            numeroPrimero = arrayDesordenado.get(i);
+        } else {
+            bloqueo = true;
+            imgb.setScaleType(ImageView.ScaleType.CENTER_CROP); //Debo pasarle la imagen
+            imgb.setImageResource(imagenes[arrayDesordenado.get(i)]); //asigno la imagen
+            imgb.setEnabled(false);
+            numeroSegundo = arrayDesordenado.get(i);
+            if(numeroPrimero == numeroSegundo){
+                primero = null; //lo libero
+                bloqueo = false; //ya puedo seguir escogiendo imagenes
+                aciertos++;
+                puntuacion++;
+                textoPuntuacion.setText("Puntuación: " + puntuacion);
+                if(aciertos == imagenes.length){
+                    Toast toast = Toast.makeText(getApplicationContext(),"Has ganado!!", Toast.LENGTH_LONG);
+                    toast.show();
+                }
+            } else{
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        primero.setScaleType(ImageView.ScaleType.CENTER_CROP); //Debo pasarle la imagen
+                        primero.setImageResource(fondo); //asigno la imagen
+                        primero.setEnabled(true);
+                        imgb.setScaleType(ImageView.ScaleType.CENTER_CROP); //Debo pasarle la imagen
+                        imgb.setImageResource(fondo); //asigno la imagen
+                        imgb.setEnabled(true);
+                        bloqueo = false;
+                        primero = null; //Ya no hay nadie en primero
+                        puntuacion--;
+                        textoPuntuacion.setText("Puntuación: " + puntuacion);
+                    }
+                }, 1000);
+            }
+        }
+
+    }
+
     private void init(){
         cargarTablero();
         cargarBotones();
@@ -157,6 +203,24 @@ public class Juego extends Activity {
                 }
             }
         }, 500);
+
+        for (int i=0; i<tablero.length; i++){
+            final int j = i;
+            tablero[i].setEnabled(true);
+            tablero[i].setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if(!bloqueo)
+                        comprobar(j, tablero[j]);
+                }
+            });
+        }
+
+
+
+
+
+
     }
 
 }

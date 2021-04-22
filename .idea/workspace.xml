@@ -24,7 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="836795e1-f016-4b42-bf5d-7c600e1eceda" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemoryApplication/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryApplication/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemoryApplication/app/src/main/res/layout/juego.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryApplication/app/src/main/res/layout/juego.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemoryApplication/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryApplication/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

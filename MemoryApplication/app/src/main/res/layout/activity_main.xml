@@ -47,7 +47,7 @@
         android:id="@+id/botonMainSalir"
         android:layout_width="184dp"
         android:layout_height="144dp"
-        android:text="@string/boton_init_quit"
+        android:text="Salir"
         android:visibility="visible"
         tools:visibility="visible" />
 

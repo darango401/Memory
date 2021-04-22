@@ -15,7 +15,7 @@
         android:visibility="visible"
         app:layout_anchor="@+id/include2"
         app:layout_anchorGravity="bottom|center"
-        app:srcCompat="@drawable/noun_Game_3793591"
+        app:srcCompat="@drawable/noungame"
         tools:visibility="visible" />
 
     <com.google.android.material.appbar.AppBarLayout

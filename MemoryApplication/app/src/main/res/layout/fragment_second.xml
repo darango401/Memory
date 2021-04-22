@@ -47,5 +47,6 @@
         android:src="@drawable/UPB_Escudo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:srcCompat="@drawable/upb" />
 </androidx.constraintlayout.widget.ConstraintLayout>

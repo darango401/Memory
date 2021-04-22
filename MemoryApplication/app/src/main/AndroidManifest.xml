@@ -24,6 +24,9 @@
 
         /*Tengo que declarar aqui la activity*/
         <activity android:name=".Juego"></activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
     </application>
 

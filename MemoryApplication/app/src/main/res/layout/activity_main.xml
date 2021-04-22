@@ -27,40 +27,38 @@
         android:id="@+id/include2"
         layout="@layout/content_main" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
-
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center_vertical"
         android:layout_marginTop="50dp"
-        >
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/botonMainJugar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/boton_init_play"
-        app:layout_anchor="@+id/include2"
-        app:layout_anchorGravity="center"
+        <Button
+            android:id="@+id/botonMainJugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190sp"
+            android:layout_marginLeft="190sp"
 
-        />
+            android:layout_marginTop="300sp"
+            android:text="@string/boton_init_play"
+            app:layout_anchor="@+id/include2"
+            app:layout_anchorGravity="center" />
+
+        <Button
+            android:id="@+id/botonMainSalir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190sp"
+            android:layout_marginLeft="190sp"
+            android:layout_marginTop="50sp"
+            android:text="Salir"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
         /*android:layout_margin="150dp"*/
 
-    <Button
-        android:id="@+id/botonMainSalir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Salir"
-        android:visibility="visible"
-        tools:visibility="visible" />
         /*android:layout_width="184dp"*/
         /*android:layout_height="144dp"*/
     </LinearLayout>

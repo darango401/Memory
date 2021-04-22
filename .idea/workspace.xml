@@ -23,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="836795e1-f016-4b42-bf5d-7c600e1eceda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MemoryApplication/app/src/main/java/com/example/memoryapplication/Juego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MemoryApplication/app/src/main/res/layout/juego.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemoryApplication/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryApplication/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemoryApplication/app/src/main/java/com/example/memoryapplication/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryApplication/app/src/main/java/com/example/memoryapplication/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemoryApplication/app/src/main/res/layout/juego.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryApplication/app/src/main/res/layout/juego.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

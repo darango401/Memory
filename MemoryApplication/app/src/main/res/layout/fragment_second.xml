@@ -21,10 +21,30 @@
         android:id="@+id/button_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/previous"
-        app:layout_constraintTop_toBottomOf="@id/textview_second"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="REGRESAR"
         app:layout_constraintBottom_toBottomOf="parent"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_second" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="244dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="400dp"
+        android:fontFamily="@font/rubik_bold"
+        android:includeFontPadding="true"
+        android:text="Créditos:\nClemencia Giraldo Duque\nclemencia.giraldo@upb.edu.co\nDaniel Altman Arango\ndaniel.arangoa@upb.edu.co\nIngeniería de Sistemas e Informática \nUniversidad Pontificia Bolivariana"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="73dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/UPB_Escudo"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="169dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,13 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Creditos">
+    tools:context=".CreditosActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.MemoryApplication.AppBarOverlay"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -22,7 +21,6 @@
             android:layout_height="match_parent"
             android:background="?attr/colorPrimary"
             android:visibility="visible"
-            app:popupTheme="@style/Theme.MemoryApplication.PopupOverlay"
             tools:visibility="visible" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -41,7 +39,9 @@
         android:id="@+id/button_second"
         android:layout_width="112dp"
         android:layout_height="wrap_content"
+        android:background="#773DAF"
         android:text="REGRESAR"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

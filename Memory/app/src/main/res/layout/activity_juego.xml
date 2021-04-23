@@ -29,14 +29,13 @@
     ]]>
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView5"
         android:layout_width="95dp"
         android:layout_height="69dp"
-        android:layout_marginTop="170dp"
+        android:src="@drawable/noungame"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableLayout2"
-        app:srcCompat="@drawable/noungame" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/botonJuegoReiniciar"
@@ -44,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="115dp"
         android:background="#673AB7"
-        android:text="@string/boton_juego_reinit"
+        android:text="REINICIAR"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.159"
@@ -57,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="115dp"
         android:background="#673AB7"
-        android:text="@string/boton_juego_quit"
+        android:text="SALIR"
         android:textColor="#FFFFFF"
         app:cornerRadius="45dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,7 +68,6 @@
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.MemoryApplication.AppBarOverlay"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -80,7 +78,6 @@
             android:layout_height="match_parent"
             android:background="?attr/colorPrimary"
             android:visibility="visible"
-            app:popupTheme="@style/Theme.MemoryApplication.PopupOverlay"
             tools:visibility="visible" />
 
     </com.google.android.material.appbar.AppBarLayout>

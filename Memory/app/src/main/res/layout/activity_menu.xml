@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MenuActivity">
 
     <Button
         android:id="@+id/botonMainJugar"
@@ -12,7 +12,9 @@
         android:layout_height="wrap_content"
 
         android:layout_marginTop="65dp"
-        android:text="@string/boton_init_play"
+        android:background="#773DAF"
+        android:text="JUGAR"
+        android:textColor="#FFFFFF"
         app:layout_anchorGravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +25,9 @@
         android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="65dp"
+        android:background="#773DAF"
         android:text="CRÉDITOS"
+        android:textColor="#FFFFFF"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +39,9 @@
         android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="65dp"
+        android:background="#773DAF"
         android:text="Salir"
+        android:textColor="#FFFFFF"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +52,6 @@
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.MemoryApplication.AppBarOverlay"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -57,22 +62,18 @@
             android:layout_height="match_parent"
             android:background="?attr/colorPrimary"
             android:visibility="visible"
-            app:popupTheme="@style/Theme.MemoryApplication.PopupOverlay"
             tools:visibility="visible" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView6"
         android:layout_width="95dp"
         android:layout_height="69dp"
-        android:layout_marginTop="65dp"
+        android:src="@drawable/noungame"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/botonMainCreditos"
-        app:layout_constraintVertical_bias="0.684"
-        app:srcCompat="@drawable/noungame" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView3"

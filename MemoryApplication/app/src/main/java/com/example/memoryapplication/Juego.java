@@ -107,7 +107,7 @@ public class Juego extends Activity {
         textoPuntuacion = findViewById(R.id.texto_puntuacion);
         puntuacion = 0;
         aciertos = 0;
-        textoPuntuacion.setText("Puntuacion: " + puntuacion);
+        textoPuntuacion.setText("Puntuación: " + puntuacion);
     }
 
     private void cargarImagenes(){

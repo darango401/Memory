@@ -24,6 +24,7 @@
 
         /*Tengo que declarar aqui la activity*/
         <activity android:name=".Juego"></activity>
+        <activity android:name=".Creditos"></activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

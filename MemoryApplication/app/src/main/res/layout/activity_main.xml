@@ -1,33 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="58dp"
-        android:layout_height="53dp"
-        android:contentDescription="Logo"
-        android:visibility="visible"
+    <Button
+        android:id="@+id/botonMainJugar"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="65dp"
+        android:text="@string/boton_init_play"
         app:layout_anchor="@+id/include2"
-        app:layout_anchorGravity="bottom|center"
-        app:srcCompat="@drawable/noungame"
+        app:layout_anchorGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/botonMainCreditos"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="CRÉDITOS"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonMainSalir"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/botonMainSalir"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="Salir"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonMainJugar"
         tools:visibility="visible" />
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.MemoryApplication.AppBarOverlay">
+        android:theme="@style/Theme.MemoryApplication.AppBarOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:background="?attr/colorPrimary"
             android:visibility="visible"
             app:popupTheme="@style/Theme.MemoryApplication.PopupOverlay"
@@ -35,40 +63,28 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include
-        android:id="@+id/include2"
-        layout="@layout/content_main" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="95dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonMainCreditos"
+        app:layout_constraintVertical_bias="0.684"
+        app:srcCompat="@drawable/noungame" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:orientation="vertical">
+        android:fontFamily="@font/berkshire_swash"
+        android:text="¡Bienvenido!"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
 
-        <Button
-            android:id="@+id/botonMainJugar"
-            android:layout_width="105dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="152sp"
-            android:layout_marginLeft="152sp"
-
-            android:layout_marginTop="300sp"
-            android:text="@string/boton_init_play"
-            app:layout_anchor="@+id/include2"
-            app:layout_anchorGravity="center" />
-
-        <Button
-            android:id="@+id/botonMainSalir"
-            android:layout_width="105dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="152sp"
-            android:layout_marginLeft="152sp"
-            android:layout_marginTop="50sp"
-            android:text="Salir"
-            android:visibility="visible"
-            tools:visibility="visible" />
-
-    </LinearLayout>
-
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

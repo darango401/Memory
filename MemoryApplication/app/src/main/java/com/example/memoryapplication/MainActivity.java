@@ -14,7 +14,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button play, salir;
+    Button play, salir, creditos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         /*Botones como objetos*/
         play = findViewById(R.id.botonMainJugar);
         salir = findViewById(R.id.botonMainSalir);
+        creditos = findViewById(R.id.botonMainCreditos);
 
         /*Annado eventos a los botones*/
         play.setOnClickListener(new View.OnClickListener() {
@@ -38,6 +39,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
+            }
+        });
+
+        creditos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent creditos = new Intent(MainActivity.this,Creditos.class);
+                startActivity(creditos);
             }
         });
         /*Hasta aqui los botones*/
@@ -73,5 +82,6 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, Juego.class);
         startActivity(i);
     }
+
 
 }

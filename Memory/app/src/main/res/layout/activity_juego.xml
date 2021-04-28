@@ -250,6 +250,8 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:fontFamily="@font/bungee_hairline"
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:textSize="25dp">
 
             </TextView>

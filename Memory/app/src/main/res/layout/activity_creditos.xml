@@ -30,6 +30,14 @@
                 android:text="     Memory"
                 android:textColor="#FFFFFF"
                 android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="116dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#023E7D"
+                android:src="@drawable/noungame3" />
         </LinearLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -49,6 +57,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#023E7D"
+        android:fontFamily="@font/montserrat"
         android:text="REGRESAR"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
@@ -74,7 +83,7 @@
         android:id="@+id/imageView"
         android:layout_width="73dp"
         android:layout_height="63dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="68dp"
         android:src="@drawable/upb"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,4 +99,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="332dp"
+        android:src="@drawable/creditosazulcorrecto3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

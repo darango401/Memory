@@ -52,6 +52,15 @@
                 android:text="     Memory"
                 android:textColor="#FFFFFF"
                 android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="111dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#023E7D"
+                android:src="@drawable/noungame3" />
+
         </LinearLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -73,6 +82,7 @@
         android:layout_marginTop="64dp"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#023E7D"
+        android:fontFamily="@font/montserrat"
         android:text="REINICIAR"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,6 +97,7 @@
         android:layout_marginTop="64dp"
         android:background="@drawable/roundstyle"
         android:backgroundTint="#023E7D"
+        android:fontFamily="@font/montserrat"
         android:text="SALIR"
         android:textColor="#FFFFFF"
         app:cornerRadius="45dp"

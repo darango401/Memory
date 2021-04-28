@@ -1,0 +1,20 @@
+com/example/memory/CreditosActivity.java
+ com.example.memory.CreditosActivity
+ com.example.memory.CreditosActivity$1
+com/example/memory/Juego.java
+ com.example.memory.Juego
+ com.example.memory.Juego$1
+ com.example.memory.Juego$2
+ com.example.memory.Juego$3
+ com.example.memory.Juego$4
+ com.example.memory.Juego$5
+com/example/memory/MainActivity.java
+ com.example.memory.MainActivity
+ com.example.memory.MainActivity$1
+com/example/memory/BuildConfig.java
+ com.example.memory.BuildConfig
+com/example/memory/MenuActivity.java
+ com.example.memory.MenuActivity
+ com.example.memory.MenuActivity$1
+ com.example.memory.MenuActivity$2
+ com.example.memory.MenuActivity$3

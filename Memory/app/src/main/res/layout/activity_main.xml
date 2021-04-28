@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7D53C6"
+    android:background="#023E7D"
     tools:context=".MainActivity">
 
     <ImageView
@@ -15,5 +15,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/noungame" />
+        app:srcCompat="@drawable/noungame3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

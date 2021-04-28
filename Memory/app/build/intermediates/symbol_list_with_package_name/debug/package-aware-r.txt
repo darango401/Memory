@@ -1698,11 +1698,13 @@ drawable notify_panel_notification_icon_bg
 drawable noungame
 drawable noungame1
 drawable noungame3
+drawable roundstyle
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable upb
 font berkshire_swash
+font bungee_hairline
 font rubik_bold
 id ALT
 id BOTTOM_END
@@ -2106,6 +2108,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id textView3
 id textView7
 id text_input_end_icon
@@ -2124,7 +2127,6 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toolbar
 id top
 id topPanel
 id touch_outside

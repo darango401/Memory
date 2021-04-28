@@ -50,7 +50,7 @@ public class MenuActivity extends Activity {
         });
         /*Hasta aqui los botones*/
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        /*Toolbar toolbar = findViewById(R.id.toolbar);*/
 
 
     }

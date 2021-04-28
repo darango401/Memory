@@ -32,6 +32,10 @@
         "source": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\src\\main\\res\\drawable\\la5.jpg"
     },
     {
+        "merged": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\build\\intermediates\\res\\merged\\debug\\font_bungee_hairline.ttf.flat",
+        "source": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\src\\main\\res\\font\\bungee_hairline.ttf"
+    },
+    {
         "merged": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\build\\intermediates\\res\\merged\\debug\\drawable_noungame.png.flat",
         "source": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\src\\main\\res\\drawable\\noungame.png"
     },
@@ -58,6 +62,10 @@
     {
         "merged": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundstyle.xml.flat",
+        "source": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\src\\main\\res\\drawable\\roundstyle.xml"
     },
     {
         "merged": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",

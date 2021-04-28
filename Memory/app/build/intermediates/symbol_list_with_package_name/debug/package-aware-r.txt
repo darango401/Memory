@@ -1655,6 +1655,8 @@ drawable fondo1
 drawable fondo2
 drawable fondo3
 drawable fondo4
+drawable fondo5
+drawable fondo6
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background

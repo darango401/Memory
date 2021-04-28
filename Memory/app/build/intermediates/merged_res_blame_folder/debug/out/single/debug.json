@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\src\\main\\res\\font\\montserrat.ttf"
     },
     {
+        "merged": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondo6.png.flat",
+        "source": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\src\\main\\res\\drawable\\fondo6.png"
+    },
+    {
         "merged": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_menu.xml.flat",
         "source": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\src\\main\\res\\layout\\activity_menu.xml"
     },
@@ -78,6 +82,10 @@
     {
         "merged": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\build\\intermediates\\res\\merged\\debug\\drawable_la6.jpg.flat",
         "source": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\src\\main\\res\\drawable\\la6.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fondo5.png.flat",
+        "source": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\src\\main\\res\\drawable\\fondo5.png"
     },
     {
         "merged": "C:\\Users\\Clemen\\Documents\\GitHub\\Memory\\Memory\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
